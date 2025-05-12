@@ -1,0 +1,40 @@
+.plant-care-section {
+  padding-top: 5px;
+  color: #333;
+  line-height: 1.6;
+  font: inherit;
+}
+
+.plant-care-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.plant-care-section p {
+
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2.5rem;
+}
+
+.plant-care-section h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.plant-care-section ul {
+  padding-left: 1.25rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.plant-care-section li {
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+}
+
+.care {
+  width: 360px;
+}

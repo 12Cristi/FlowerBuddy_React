@@ -1,0 +1,100 @@
+* {
+  font-family: inherit;
+}
+
+.main-content-home {
+  margin: 3rem 0;
+  display: flex;
+  flex: 1;
+
+  img {
+    width: 270px;
+    height: 600px;
+  }
+
+  .roses-images {
+    cursor: pointer;
+  }
+}
+
+.main-content-images {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  column-gap: 20px;
+  overflow: hidden;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.main-content-title {
+  flex: 1;
+  align-items: center;
+  align-content: center;
+  width: 500px;
+
+  h1 {
+    font-size: 40px;
+  }
+
+  div {
+    font-size: 24px;
+  }
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin: 40px 0;
+  gap: 450px;
+  flex-wrap: wrap;
+}
+
+.subscribe-details-entry {
+  min-width: 300px;
+}
+
+.subscribe-details-entry h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.subscribe-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #333;
+}
+
+.subscribe-details {
+  margin: 20px 0;
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.subscribe-details-text {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}

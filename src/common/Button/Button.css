@@ -1,0 +1,18 @@
+.custom-button {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #D9D9D9;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 10px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.standard-login-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}

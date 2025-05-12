@@ -1,0 +1,14 @@
+#navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+a {
+  color: #000
+}

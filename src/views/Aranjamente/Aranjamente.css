@@ -1,0 +1,31 @@
+.mix-flower {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 0;
+  justify-content: space-between;
+
+  .mix-flowers-content {
+    width: 277px;
+  }
+}
+
+.mix-flowers-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  .uniques-title {
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+
+  .uniques-text {
+    font-size: 1rem;
+  }
+
+  .uniques-price {
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+}

@@ -1,0 +1,12 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+:root {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 50px;
+}

@@ -1,0 +1,40 @@
+.unique-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 225px;
+  padding: 1rem;
+  box-sizing: content-box;
+  border-radius: 1rem;
+  border: 1px solid #D9d9d9d9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: auto;
+
+  img {
+    width: 100%;
+  }
+
+  .uniques-title {
+    padding-top: 1rem;
+    align-content: start;
+    padding-left: 10px;
+
+  }
+
+  .uniques-text {
+    margin: 10px 0 10px 0;
+    font-weight: 800;
+    font-size: 1.25rem;
+    align-content: end;
+    padding-left: 10px;
+  }
+
+  .custom-button {
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    width: auto;
+    height: 3rem;
+
+  }
+}
